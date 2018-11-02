@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    
+    <link rel="stylesheet" href="/css/main.css">
+    <title></title>
+  </head>
+  <body>
+{% for block in page.blocks %}
+  {% include {{block.name}}.html %}
+{% endfor %}
+  </body>
+</html>
