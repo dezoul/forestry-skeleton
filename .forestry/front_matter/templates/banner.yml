@@ -10,11 +10,11 @@ fields:
   name: sub-title
   label: sub-title
 - type: color
-  name: text_color
+  name: text-color
   config:
     color_format: Hex
-  label: text color
-  default: "#FFFFFF"
+    required: true
+  label: text-color
 - type: file
   name: pic
   label: background image
