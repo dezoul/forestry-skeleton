@@ -2,13 +2,13 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
     <link rel="stylesheet" href="/css/main.css">
     <title></title>
   </head>
   <body>
 {% for block in page.blocks %}
-  {% include {{block.type}}.html %}
+  {% include {{block.template}}.html %}
 {% endfor %}
   </body>
 </html>
