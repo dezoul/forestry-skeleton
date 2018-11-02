@@ -1,0 +1,14 @@
+---
+label: banner
+hide_body: false
+is_partial: true
+fields:
+- type: text
+  name: titler
+  label: title
+- type: text
+  name: sub-title
+  label: sub-title
+- type: file
+  name: pic
+  label: background image
