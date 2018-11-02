@@ -6,6 +6,11 @@ fields:
 - type: blocks
   name: blocks
   label: sections
+  template_types:
+  - quote
+  - banner
+  - 2-colum-pic-then-text
+  - footer-contact-form
 - type: text
   name: layout
   label: layout
