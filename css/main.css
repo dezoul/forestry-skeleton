@@ -1,13 +1,27 @@
 *{
   padding: 0;
   margin: 0;
+  background-position: center;
+  background-size: cover;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
-
+.center{text-align: center;}
+.right{text-align: right;}
+.flex-center{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
 .banner{
-  min-height: 90vh;
+  min-height: 75vh;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -18,9 +32,23 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-
 }
-
+.medium{
+  min-height: 40vh;
+  padding: 5%;
+}
 .text-section{
   padding: 5%;
+}
+
+
+footer{
+  background-color: #ccc;
+  padding:5%
+}
+
+input, textarea{
+  width: 100%;
+  margin-bottom: .5rem;
+  border-radius: 1vw;
 }
