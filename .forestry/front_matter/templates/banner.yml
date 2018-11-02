@@ -12,3 +12,6 @@ fields:
 - type: file
   name: pic
   label: background image
+  config:
+    maxSize: '500'
+  default: "/uploads/header.jpg"
