@@ -8,7 +8,7 @@ fields:
   name: text
   description: write the quote here
   config:
-    wysiwyg: true
+    wysiwyg: false
     schema:
       format: markdown
 - type: text
